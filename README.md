@@ -20,8 +20,7 @@ I want to make a pay platform based on best-pay-sdk which is an open source SDK�
 ### 当前版本（current version）
 v1.0-Beta
 > 支持“微信”的“Native 模式二”这一支付模式（support WeChat Native 2 Pay）。  
-演示视频地址：<>  
-文档地址：<>  
+文档地址：<https://github.com/yysCyber/union-pay-platform/blob/master/document/v1.0-Beta.pdf>  
 SQL 脚本地址：<https://github.com/yysCyber/union-pay-platform/blob/master/SQL/example.sql>
 
 ### 使用前准备工作（prepared work）
