@@ -25,7 +25,7 @@ v1.0-Beta
 SQL 脚本地址：<https://github.com/yysCyber/union-pay-platform/blob/master/SQL/example.sql>
 
 ### 使用前准备工作（prepared work）
-1、大致了解微信 Native 支付的机制。  
+1、大致了解微信 Native 支付的机制，以及这个过程中涉及到的一些参数的含义，比如说：“一次订单支付的过程中，商户会使用‘订单号’记录这笔交易，这个对商户系统是唯一的，与此同时，微信也会产生一个唯一的‘交易流水号’来识别这次交易”。  
 2、best-pay-sdk，参考 <https://github.com/Pay-Group/best-pay-sdk> 。  
 3、申请到使用微信 Native 支付的资质。  
 4、内网穿透工具的使用。  
