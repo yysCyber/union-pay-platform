@@ -11,12 +11,17 @@ I want to make a pay platform based on best-pay-sdk which is an open source SDK�
 1、Email：y2161624113@163.com<br/>
 > 要求 邮件主题：union-pay-platform
 
+### 目录说明（catalog）
+1、project/projectd：工程  
+2、SQL：SQL 建库、建表语句脚本  
+3、video：演示视频（以“版本号”命名）  
+4、document：文档（以“版本号”命名）
+
 ### 当前版本（current version）
 v1.0-Beta
 > 支持“微信”的“Native 模式二”这一支付模式（support WeChat Native 2 Pay）。  
 演示视频地址：<>  
 文档地址：<>
-
 
 ### 使用前准备工作（prepared work）
 1、大致了解微信 Native 支付的机制。  
