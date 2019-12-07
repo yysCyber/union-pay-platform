@@ -3,6 +3,8 @@ package com.yscyber.myspringboot.projectd.service.pay.wechat;
 /**
  * 微信支付提示页面上要显示的信息汇总
  *
+ * 主要用于传递到“提示”界面
+ *
  * @author Yuan
  */
 public interface WeChatPayTipConstant {
@@ -20,7 +22,7 @@ public interface WeChatPayTipConstant {
     /**
      * “支付成功”提示页面上“离开支付平台”链接
      */
-    String TIP_URL = "https://www.baidu.com";
+    String TIP_SUCCESS_URL = "https://www.baidu.com";
 
     /**
      * “支付失败”提示页面上的“总提示”

@@ -30,12 +30,12 @@ public interface WeChatPayConstant {
      * 微信最终的支付结果，需要以来自微信支付平台的支付通知为准！！！
      * 要求：外网必须能够访问到
      */
-    String EXAMPLE_NOTIFY_URL = "";
+    String EXAMPLE_NOTIFY_URL = "http://xxx.xxx.xxx/union-pay/wechat/native-second/async-notify";
 
     /**
      * 示例用，订单名称前缀
      */
-    String EXAMPLE_ORDER_NAME_PREFIX = "xxxx-";
+    String EXAMPLE_ORDER_NAME_PREFIX = "";
 
     /**
      * 示例用，收款方名称

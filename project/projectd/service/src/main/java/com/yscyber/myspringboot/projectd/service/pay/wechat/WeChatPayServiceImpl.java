@@ -110,7 +110,9 @@ public class WeChatPayServiceImpl implements PayService {
             payInformationDAO.updatePayInformationSelectiveOneByOrderId(payInformationLocal, payResponse.getOrderId());
         }
 
-        // 4、告诉微信，最终已经确认了订单状态（不管是否支付成功！！！），不要再向 notify_url 发送通知
+        // TODO 在此处，该“统一支付平台”可以考虑向对应的“商户系统”发送相关的消息，例如：“订单支付完成，商户系统修改对应的订单状态”
+
+        // TODO 4、告诉微信，最终已经确认了订单状态（不管是否支付成功！！！），不要再向 notify_url 发送通知
         return WeChatPayConstant.NO_NEED_NOTIFY_FLAG;
 
     }
@@ -130,6 +132,11 @@ public class WeChatPayServiceImpl implements PayService {
         }
     }
 
+    /**
+     * 生成一个32位不带“-”的 UUID
+     *
+     * @return String
+     */
     private String createUUID() {
         return UUID.randomUUID().toString().replaceAll("-", "");
     }

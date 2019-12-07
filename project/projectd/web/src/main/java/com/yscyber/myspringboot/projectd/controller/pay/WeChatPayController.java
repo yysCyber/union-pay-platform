@@ -47,7 +47,7 @@ public class WeChatPayController {
      * GET 请求 URL：/union-pay/wechat/native-second?id=xxx&name=xxx&amount=xxx
      * POST 请求 URL：/union-pay/wechat/native-second
      *
-     * GET 存在一定的风险性，请求的参数直接暴露在 URL 中
+     * GET 存在一定的风险性，请求的参数直接暴露在 URL 中；建议使用 POST 请求，以表单的形式提交过来
      * 不进行相关数据校验，确保传入的数据正确！！！
      *
      * @param orderId 订单编号
@@ -67,7 +67,7 @@ public class WeChatPayController {
             modelAndView.setViewName("wechat/wechat_pay_tip_page");
             modelAndView.addObject(TIP_SUMUP_KEY, WeChatPayTipConstant.TIP_SUCCESS_SUMUP);
             modelAndView.addObject(TIP_DETAIL_KEY, WeChatPayTipConstant.TIP_SUCCESS_DETAIL);
-            modelAndView.addObject(TIP_URL, WeChatPayTipConstant.TIP_URL);
+            modelAndView.addObject(TIP_URL, WeChatPayTipConstant.TIP_SUCCESS_URL);
         } else {
             // TODO 跳转至“支付”页面
             modelAndView.setViewName("wechat/wechat_pay_page");
@@ -99,9 +99,9 @@ public class WeChatPayController {
     public ModelAndView pageWeChatPayNativeSecondPaySuccess() {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.setViewName("wechat/wechat_pay_tip_page");
-        modelAndView.addObject(TIP_SUMUP_KEY, "支付成功");
-        modelAndView.addObject(TIP_DETAIL_KEY, "请勿重复支付！如有疑问，请及时联系管理员！");
-        modelAndView.addObject(TIP_URL, "https://www.imooc.com");
+        modelAndView.addObject(TIP_SUMUP_KEY, WeChatPayTipConstant.TIP_SUCCESS_SUMUP);
+        modelAndView.addObject(TIP_DETAIL_KEY, WeChatPayTipConstant.TIP_SUCCESS_DETAIL);
+        modelAndView.addObject(TIP_URL, WeChatPayTipConstant.TIP_SUCCESS_URL);
         return modelAndView;
     }
 
