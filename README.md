@@ -23,6 +23,7 @@ v1.0-Beta
 2、best-pay-sdk，参考 <https://github.com/Pay-Group/best-pay-sdk> 。  
 3、申请到使用微信 Native 支付的资质。  
 4、内网穿透工具的使用。  
+5、使用 jquery.qrcode.js 在前端页面生成二维码图片，参考 <https://github.com/jeromeetienne/jquery-qrcode>  
 ......  
 
 参考网址：
@@ -32,6 +33,7 @@ v1.0-Beta
 <https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_1>  
 <https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_7&index=8>  
 3、内网穿透工具 NATAPP：<https://natapp.cn>  
+4、jQuery 生成二维码工具 GitHub：<https://github.com/jeromeetienne/jquery-qrcode>  
 ......
 
 
