@@ -20,6 +20,7 @@ I want to make a pay platform based on best-pay-sdk which is an open source SDK�
 ### 当前版本（current version）
 v1.0-Beta
 > 支持“微信”的“Native 模式二”这一支付模式（support WeChat Native 2 Pay）。  
+支持“支付宝”的“电脑网站支付”这一支付模式（support Alipay PC Web）  
 文档地址：<https://github.com/yysCyber/union-pay-platform/blob/master/document/v1.0-Beta.pdf>  
 SQL 脚本地址：<https://github.com/yysCyber/union-pay-platform/blob/master/SQL/example.sql>
 
@@ -29,6 +30,7 @@ SQL 脚本地址：<https://github.com/yysCyber/union-pay-platform/blob/master/S
 3、申请到使用微信 Native 支付的资质。  
 4、内网穿透工具的使用。  
 5、使用 jquery.qrcode.js 在前端页面生成二维码图片，参考 <https://github.com/jeromeetienne/jquery-qrcode>  
+6、支付宝电脑网站支付的机制（支付类的套路都基本上是一致的）。  
 ......  
 
 参考网址：
@@ -39,6 +41,8 @@ SQL 脚本地址：<https://github.com/yysCyber/union-pay-platform/blob/master/S
 <https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=9_7&index=8>  
 3、内网穿透工具 NATAPP：<https://natapp.cn>  
 4、jQuery 生成二维码工具 GitHub：<https://github.com/jeromeetienne/jquery-qrcode>  
+5、支付宝电脑网站支付相关开发文档：<https://docs.open.alipay.com/270>  
+<https://docs.open.alipay.com/270/105902>  
 ......
 
 
