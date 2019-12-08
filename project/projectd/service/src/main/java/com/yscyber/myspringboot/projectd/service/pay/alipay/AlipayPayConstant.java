@@ -44,7 +44,7 @@ public interface AlipayPayConstant {
     /**
      * 示例用，支付成功后将要跳转的 URL
      */
-    String EXAMPLE_RETURN_URL = "http://xxx.xxx.xxx/union-pay/alipay/pc/temp-success";
+    String EXAMPLE_RETURN_URL = "http://xxx.xxx.xxx/union-pay/alipay/pc/success-tip";
 
     /**
      * 告诉支付宝，不要再发送异步通知了

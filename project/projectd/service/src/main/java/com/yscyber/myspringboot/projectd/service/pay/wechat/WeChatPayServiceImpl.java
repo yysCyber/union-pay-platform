@@ -28,7 +28,7 @@ public class WeChatPayServiceImpl implements PayService {
      * BestPayServiceImpl 自动注入，确保单例
      */
     @Autowired
-    BestPayServiceImpl bestPayService;
+    private BestPayServiceImpl bestPayService;
 
     @Autowired
     private PayInformationDAO payInformationDAO;

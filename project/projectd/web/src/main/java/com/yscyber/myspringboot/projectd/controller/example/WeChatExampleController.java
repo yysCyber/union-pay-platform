@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 @RequestMapping("/wechat")
-public class ExampleController {
+public class WeChatExampleController {
 
     @GetMapping("/example")
     public ModelAndView pageWechat() {
